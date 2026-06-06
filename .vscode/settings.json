@@ -1,0 +1,11 @@
+{
+    "graalvm.home": "",
+    "graalvm.installations": [
+        ""
+    ],
+    "netbeans.jdkhome": "",
+    "terminal.integrated.env.osx": {
+        "GRAALVM_HOME": ""
+    },
+    "java.configuration.runtimes": []
+}
