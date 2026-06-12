@@ -2,7 +2,6 @@
 
 import bcrypt from "bcrypt"; 
 import Registration from "../model/Registration.Model.js";
-// import { data } from "react-router-dom";
 import jwt from "jsonwebtoken";
 
 // Registration Create Controller
@@ -17,7 +16,6 @@ export async function createControler(req, res) {
         }
         else {
             const newUser = await Registration.create({ name, email, password: bcrypt.hashSync(password, 10) });
-            // await newUser.save();
             return res.status(201).json({ "message": "User registered successfully" });
         }
 
