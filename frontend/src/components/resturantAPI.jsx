@@ -11,11 +11,10 @@ const resturantAPI = () => {
     useEffect(() => {
         async function calling() {
             try {
-                // FOOLPROOF FIX: Wiped out all traces of "${id}" or dynamic parameters.
-                // This fetches the clean, full list of restaurants for your home screen.
+                // fetches the clean, full list of restaurants for your home screen.
                 let result = await axios.get('http://localhost:8080/api/restaurant');
                 
-                // Unpack result.data.data because your backend wraps the array inside an object
+                // Unpack result.data.data because backend wraps the array inside an object
                 if (result.data && result.data.data) {
                     console.log("Successfully fetched full restaurant array:", result.data.data);
                     setRestaurants(result.data.data); 
