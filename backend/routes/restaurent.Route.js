@@ -7,7 +7,7 @@ import verifyToken from '../middleware/verifyToken.js';
 
 
 export default function RestaurentRoute(app) {
-    // app.get('/api/darabase', ()=>{})      //"  ()=>{}   " logic to fetch data and this logic is also called controller
+  
                             
 
         // Create
