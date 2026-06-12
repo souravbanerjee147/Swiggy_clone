@@ -6,7 +6,7 @@ import Cake from './varity/cake';
 import Chinese from './varity/chinese';
 import Desserts from './varity/desserts';
 import Rolls from './varity/rolls';
-import Resturant from './resturant'; // Ensure your path matches your Resturant mapping component file exactly
+import Resturant from './resturant';
 import resturantAPI from './resturantAPI';
 
 const Body = () => {
