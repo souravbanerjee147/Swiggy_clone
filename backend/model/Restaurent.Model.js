@@ -2,7 +2,7 @@
 
 
 import mongoose from "mongoose";
-// import { bool } from "prop-types";
+
 
 const RestaurentSchema = new mongoose.Schema({
     name: {
@@ -18,7 +18,7 @@ const RestaurentSchema = new mongoose.Schema({
         required: true
     },
     slaString:{
-        type: String,//Shorthand (Shortcurt)
+        type: String,
         required: true
     },
     cuisines: {
@@ -32,7 +32,7 @@ const RestaurentSchema = new mongoose.Schema({
 });
 
 const RestaurentModel = mongoose.model('Restaurent', RestaurentSchema);
-// vs code name   =         (collection Name,  schema name)
+
 
 
 export default RestaurentModel;
