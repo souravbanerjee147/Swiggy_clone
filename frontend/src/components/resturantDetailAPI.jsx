@@ -84,8 +84,7 @@ function ResturantDetailAPI() {
 
     return (
         <div className="max-w-4xl mx-auto p-4">
-            {/* ... Your Existing Menu Layout Header ... */}
-            
+        
             {/* ================= RE-ENGINEERED BUTTON INTERFACE CLICK BINDINGS ================= */}
             {menu.map((foodItem) => {
                 const id = foodItem._id; // Assuming each food item has a unique 'id' property
